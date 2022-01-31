@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>University Website Design</title>
+  </head>
+
+  <body>
+    <!-- --------------------------------------- Hero Component ------------------------------------------------- -->
+
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>
+          Learn to shape you... Hardest but the Easiest way to strengthen
+          yourself... Explore the skills, all you need... <br />
+          Stay tuned!!! Stay happy!!!
+        </p>
+        <a href="" class="hero-btn">Visit us to know more...</a>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------- Course Section --------------------------------------------------- -->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        The different Courses are here to enlighten your skills. Choose the
+        skills in which you are Interested. Happy to learn and share your
+        knowledge.
+      </p>
+
+      <div class="row">
+        <div class="course-column">
+          <h3>Beginner</h3>
+          <p>
+            The Beginner level courses are HTML, CSS. These courses are the
+            basic course for the web developers. This is easy to learn. Once you
+            learn, you can develop your own websites.
+          </p>
+        </div>
+        <div class="course-column">
+          <h3>Intermediate</h3>
+          <p>
+            The intermediate level course is the JavaScript course. By using
+            JavaScript we can make our websites responsive. We should learn all
+            the basics of JavaScript and we must have knowledge about writing
+            codes.
+          </p>
+        </div>
+        <div class="course-column">
+          <h3>Advanced</h3>
+          <p>
+            The advanced level courses are React, Angular, Node, etc. We can
+            make attractive websites using all these libraries and frameworks.
+            We can make mutiple page layouts, dynamic pages using the front end
+            frameworks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------- Campus Section --------------------------------------------------- -->
+
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Students experience a vibrant college environment combined with the
+        resources of a world class research university.
+      </p>
+
+      <div class="row">
+        <div class="campus-column">
+          <img src="images/london.png" alt="London Campus" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+
+        <div class="campus-column">
+          <img src="images/newyork.png" alt="New York Campus" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+
+        <div class="campus-column">
+          <img src="images/washington.png" alt="Washington Campus" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------- Facilities Section --------------------------------------------------- -->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Courses offer flexibility in module choices and all are shaped by
+        industry and business. You will benefit from inspiring and engaging
+        teaching, fantastic extra-curricular activities, and the tools to
+        prepare you for the career of your dreams
+      </p>
+      <div class="row">
+        <div class="facilities-column">
+          <img src="images/library.png" alt="Library" />
+          <h3>World Class Library</h3>
+          <p>
+            The Central Library is the indispensable hub of discovery, learning
+            and creativity at DEI by providing a distinguished collection of
+            information resources unbounded by place and preserved for future
+            generations.
+          </p>
+        </div>
+
+        <div class="facilities-column">
+          <img src="images/basketball.png" alt="Basket Ball" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Nashville Zoo's impressive play area, which happens to be the
+            largest community-built playground in America, has a 35-foot-tall
+            tree house and massive snake tunnel for kids to enjoy.
+          </p>
+        </div>
+
+        <div class="facilities-column">
+          <img src="images/cafeteria.png" alt="Library" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            The cafeteria is a self-service restaurant where you select and pay
+            for food yourself, or a dining area where meals can be purchased or
+            brought from home.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------- Testimonial Section ---------------------------------------------- -->
+
+    <section class="testimonial">
+      <h1>What our student says...</h1>
+      <p>
+        Hear what our current and past international students have to say about
+        their experience at this University.
+      </p>
+      <div class="row">
+        <div class="testimonial-column">
+          <img src="images/user1.jpg" alt="User one" />
+          <div>
+            <p>
+              My experience at this University is great and memorable. The
+              mentors at this University helped us enhance my academic and
+              interpersonal skills. I am thankful to Training & Placement cell
+              for providing a platform to enhance my skills and an opportunity
+              to showcase them. In the last I am saying that The World is here
+              at this University."
+            </p>
+            <h3>Berol Max</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-column">
+          <img src="images/user2.jpg" alt="User two" />
+          <div>
+            <p>
+              It was a great experience studying at this University, a memory to
+              cherish for lifetime. My experience at this university was full of
+              learning and grooming. Being a global university It gave me an
+              opportunity to meet different kind of people from around the world
+              and learnt many things from them. I am thankful to all the
+              faculties, mentors and entire SET department for providing us with
+              quality education.
+            </p>
+            <h3>Jessi Zenophiya</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------- Join Us Section ---------------------------------------------- -->
+
+    <section class="join">
+      <h1>
+        Enroll for our various online courses... <br />
+        Anywhere from the World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ------------------------------------------ Footer Section ---------------------------------------------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We make lives better by producing leaders of society and equipping our
+        people with leadership qualities <br />so they can serve our communities
+        at every level.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ----------------------- Javascript for toggling menu - smaller screen <=700px -------------------------- -->
+
+    <script
+      src="https://kit.fontawesome.com/cd16c59e9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+  </body>
+</html>
